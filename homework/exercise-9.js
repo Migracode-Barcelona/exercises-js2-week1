@@ -24,7 +24,7 @@ the function will add the product to the selectedProduct list, and add the price
 5. Create the function shop, the function will empty the list and set 0 in the totalPrice of the shopping cart
 In addition will substract 1 in the product stock of bought products
 
-6. If there is not enough stock, product cannot be added to the shopping cart
+6. If there is not enough stock, the product cannot be added to the shopping cart
 */
 
 var products = [];
@@ -35,7 +35,7 @@ var product1 = {
   price: 12.98,
   stock: 105
 };
-var product1 = {
+var product2 = {
   id: 2,
   name: "Watch Rocker",
   price: 9.99,
@@ -43,10 +43,11 @@ var product1 = {
 };
 
 products.push(product1);
+products.push(product2);
 
 var shoppingCart = {
   totalPrice: 0,
-  selectedProducts = []
+  selectedProducts: []
 };
 
 function addToShoppingCart(id){

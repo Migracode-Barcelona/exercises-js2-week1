@@ -18,23 +18,23 @@ sequence.push(5);
 console.log(sequence);
 // → [1, 2, 3, 4, 5]
 
-3. Create an object method with the name .addSkill() to be able to ad skills from it
+3. Create an object method with the name .addSkill() to be able to add skills from it
 
-4. Create a method to add a skill to all memebrs in a list of mentors
+4. Create a function to add a skill to all members in a list of mentors
 
 function addSkill(mentors,newSkill){
   //your code here
 }
 
-5. Create a method to remove a skill to all memebrs in a list of mentors
+5. Create a function to remove a skill to all members in a list of mentors
 
 function removeSkill(mentors,newSkill){
   //your code here
 }
 
-6. Create a function that returns the name of the mentor with more number of skills
+6. Create a function mentorWithMoreSkills() that returns the name of the mentor with more number of skills
 
-7. Create the method .addStudentLikes() that increments by one the attribute studentLikes
+7. Create an object method .addStudentLikes() that increments by one the attribute studentLikes
 
 8. Create a function that adds a student like to all mentors in the array
 
@@ -100,3 +100,4 @@ var mentors = [
 ];
 
 //YOUR CODE HERE
+

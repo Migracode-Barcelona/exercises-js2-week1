@@ -30,13 +30,13 @@ DO NOT EDIT ANYTHING BELOW THIS LINE
 */
 
 coffeeMachine.insertMoney(2.40);
-console.log("Expected result: 'Please take your cappuccino'. Actual result: " + coffeeMachine.getCoffee('cappuccino'));
+console.log("Expected result: 'Please take your cappuccino'. Your change is: " + coffeeMachine.getCoffee('cappuccino'));
 
 coffeeMachine.insertMoney(1.50);
-console.log("Expected result: 'Please take your blackCoffee'. Actual result: " + coffeeMachine.getCoffee('blackCoffee'));
+console.log("Expected result: 'Please take your blackCoffee'. Your change is: " + coffeeMachine.getCoffee('blackCoffee'));
 
 coffeeMachine.insertMoney(4.00);
-console.log("Expected result: 'Please take your flatWhite'. Actual result: " + coffeeMachine.getCoffee('flatWhite'));
+console.log("Expected result: 'Please take your flatWhite'. Your change is: " + coffeeMachine.getCoffee('flatWhite'));
 
 coffeeMachine.insertMoney(2.40);
 console.log("Expected result: 'Sorry you don't have enough money for a flatWhite'. Actual result: " + coffeeMachine.getCoffee('flatWhite'));
